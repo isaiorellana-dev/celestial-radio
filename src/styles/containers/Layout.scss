@@ -1,3 +1,9 @@
 main {
-  background-color: black;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(117, 248, 210, 1) 0%,
+    rgba(96, 150, 219, 1) 50%,
+    rgba(42, 227, 252, 1) 100%
+  );
 }

@@ -1,0 +1,17 @@
+ul {
+  li {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    list-style: none;
+    margin-top: 25px;
+    text-align: center;
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        color: rgb(145, 253, 181);
+        text-decoration: underline;
+      }
+    }
+  }
+}

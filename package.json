@@ -1,7 +1,7 @@
 {
   "name": "celestialradio",
   "version": "1.0.0",
-  "description": "Page for Conexion Celestial Radio",
+  "description": "Page for Conexión Celestial Radio",
   "main": "src/index",
   "scripts": {
     "build": "webpack --config webpack.config.js",

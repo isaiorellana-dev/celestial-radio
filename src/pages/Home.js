@@ -1,12 +1,16 @@
 import React from "react";
-import Layout from "@containers/Layout";
+import logo from "@img/conexion celestial logo radio sin fondo.png";
+import "@styles/pages/Home.scss";
+import Nav from "@components/Nav";
+import Verse from "@components/Verse";
 
 const Home = () => {
   return (
-    <Layout>
-      <h1>Hello World</h1>
-      <p>This is the radio online</p>
-    </Layout>
+    <React.Fragment>
+      <img src={logo} />
+      <Nav />
+      {/* <Verse /> */}
+    </React.Fragment>
   );
 };
 
