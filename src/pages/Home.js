@@ -9,7 +9,7 @@ const Home = () => {
     <React.Fragment>
       <img src={logo} />
       <Nav />
-      {/* <Verse /> */}
+      <Verse />
     </React.Fragment>
   );
 };
