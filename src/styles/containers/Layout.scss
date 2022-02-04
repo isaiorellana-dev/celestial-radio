@@ -1,6 +1,7 @@
 main {
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
   background: linear-gradient(
     90deg,
     rgba(117, 248, 210, 1) 0%,
