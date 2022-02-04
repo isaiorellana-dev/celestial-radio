@@ -1,6 +1,15 @@
 @import "vars";
 @import "mixins";
 
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../assets/fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Haettenschweiler";
+  src: url("../../assets/fonts/haettenschweiler.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
