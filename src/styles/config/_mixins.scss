@@ -1,7 +1,10 @@
-main {
-  width: 100%;
-  height: calc(100vh - 70px);
-  overflow-y: scroll;
+@mixin celestial {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 3px 0px rgba(0, 0, 0);
+}
+@mixin background {
   background: linear-gradient(
     180deg,
     rgba(117, 248, 210, 1) 0%,

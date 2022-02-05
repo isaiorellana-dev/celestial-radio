@@ -7,9 +7,21 @@ import "@styles/components/SocialMedia.scss";
 const SocialMedia = () => {
   return (
     <div className="socialmedia">
-      <img src={facebook}></img>
-      <img src={whatsapp}></img>
-      <img src={youtube}></img>
+      <a
+        href="https://www.facebook.com/profile.php?id=100072200978943"
+        target="_blank"
+      >
+        <img src={facebook}></img>
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCqp9JFdI0ZntwVnLcTs-4HQ"
+        target="_blank"
+      >
+        <img src={youtube}></img>
+      </a>
+      <a href="https://wa.me/50498474931" target="_blank">
+        <img src={whatsapp}></img>
+      </a>
     </div>
   );
 };

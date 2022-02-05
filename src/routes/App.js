@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
-import "@styles/globals/global.scss";
+import "@styles/config/global.scss";
 import Layout from "../containers/Layout";
 import Contact from "../pages/Contact";
 import Credo from "../pages/Credo";
 import QuienesSomos from "../pages/QuienesSomos";
-import "@styles/globals/App.scss";
+import "@styles/config/App.scss";
 
 const App = () => {
   return (

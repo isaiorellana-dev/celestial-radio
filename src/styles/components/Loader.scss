@@ -1,0 +1,91 @@
+@import "../config/mixins";
+.loader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  @include background;
+  .loader__div {
+    position: relative;
+  }
+  p {
+    @include celestial;
+    font-size: 7.5rem;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 5px 0px rgba(0, 0, 0);
+    span {
+      color: black;
+      font-size: 5rem;
+      line-height: 5rem;
+      text-shadow: none;
+    }
+  }
+}
+.formas {
+  padding: 20px;
+  margin: 20px;
+}
+.trapecio1 {
+  position: absolute;
+  top: 24px;
+  left: 33px;
+  right: 0px;
+  bottom: 0px;
+  width: 72px;
+  height: 0px;
+  border-top: solid 0px transparent;
+  border-bottom: solid 113px #000000;
+  border-right: solid 26px transparent;
+  border-left: solid 20px transparent;
+  transform: rotate(150deg);
+  animation: trapecio 2s ease-out infinite;
+}
+
+.semicirculo1 {
+  position: absolute;
+  top: -36px;
+  left: -16px;
+  right: 0px;
+  bottom: 0px;
+  transform: rotate(150deg);
+  width: 82px;
+  height: 84px;
+  background-color: #ffd70000;
+  border-bottom: solid 62px #000000;
+  border-radius: 100px 100px 100px 100px;
+  animation: semicirculo 2s ease-out infinite;
+}
+
+@keyframes trapecio {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  50% {
+    left: 33px;
+    opacity: 1;
+  }
+  100% {
+    left: 33px;
+    opacity: 0;
+  }
+}
+@keyframes semicirculo {
+  0% {
+    left: 500px;
+    opacity: 0;
+  }
+  50% {
+    left: -16px;
+    opacity: 1;
+  }
+  100% {
+    left: -16px;
+    opacity: 0;
+  }
+}
