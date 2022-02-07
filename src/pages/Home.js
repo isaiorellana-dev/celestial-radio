@@ -7,11 +7,13 @@ import SocialMedia from "@components/SocialMedia";
 import Loader from "@components/Loader";
 
 const Home = () => {
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(false);
 
-  window.onload = () => {
+  window.addEventListener("load", function (event) {
+    console.log("'Todos los recursos terminaron de cargar!");
     setLoading(false);
-  };
+  });
+
   console.log(loading);
   return (
     <React.Fragment>

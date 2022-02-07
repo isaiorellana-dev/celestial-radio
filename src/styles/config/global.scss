@@ -31,3 +31,18 @@ body {
     rgba(42, 227, 252, 1) 100%
   );
 }
+.back {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 55px;
+  transform: rotate(180deg);
+  filter: drop-shadow(0px 3px 1px rgb(255, 255, 255));
+  transition: 0.5s;
+  img:hover {
+    filter: drop-shadow(0px -3px 1px rgb(255, 255, 255));
+  }
+}
+.back:hover {
+  filter: drop-shadow(0px -3px 1px rgb(255, 255, 255));
+}

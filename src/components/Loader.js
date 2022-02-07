@@ -5,11 +5,13 @@ const Loader = () => {
   return (
     <div className="loader">
       <div className="loader__div">
-        <div class="formas">
-          <div class="trapecio1"></div>
-        </div>
-        <div class="formas">
-          <div class="semicirculo1"></div>
+        <div>
+          <div className="formas">
+            <div className="trapecio1" />
+          </div>
+          <div className="formas">
+            <div className="semicirculo1" />
+          </div>
         </div>
       </div>
     </div>

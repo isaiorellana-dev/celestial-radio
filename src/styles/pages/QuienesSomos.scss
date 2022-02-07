@@ -1,0 +1,25 @@
+@import "../config/global.scss";
+
+.page_title {
+  @include celestial;
+  font-size: 3.6rem;
+  margin-top: 10px;
+}
+.floating_text {
+  width: 100%;
+  max-width: 1080px;
+  @include paragraph;
+  text-align: left;
+  padding: 10px;
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+  :nth-child(1) {
+    float: right;
+    width: 200px;
+  }
+}
