@@ -1,0 +1,70 @@
+@import "../config/global.scss";
+
+h1 {
+  @include celestial;
+  margin-top: 10px;
+}
+.contact__content--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact__content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  p {
+    @include paragraph;
+    text-align: left;
+    a {
+      @include paragraph;
+      color: #25d366;
+      text-shadow: rgb(255, 255, 255) 0px 0px 2px;
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+  .contact__content--facebook {
+    width: 100%;
+    max-width: 500px;
+    @include paragraph;
+    margin-top: 10px;
+    text-align: left;
+    a {
+      @include paragraph;
+      color: #3b5998;
+      text-shadow: rgb(255, 255, 255) 0px 0px 2px;
+      text-decoration: underline;
+      font-weight: 700;
+    }
+    img {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+  .contact__content--youtube {
+    width: 100%;
+    max-width: 500px;
+    @include paragraph;
+    margin-top: 10px;
+    text-align: left;
+    a {
+      @include paragraph;
+      color: #ff0000;
+      text-shadow: rgb(255, 255, 255) 0px 0px 2px;
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+  img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
