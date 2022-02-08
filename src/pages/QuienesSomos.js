@@ -1,6 +1,6 @@
 import React from "react";
 import "@styles/pages/QuienesSomos.scss";
-import pastor from "@img/pastor.png";
+import pastor from "@img/pastor-x1.png";
 import iglesia from "@img/iglesia.jpg";
 import iglesia2 from "@img/iglesia-2.jpg";
 import { Link } from "react-router-dom";
