@@ -146,6 +146,7 @@ input[type="range"][orient="vertical"] {
   height: 35px;
   display: inline-block;
   position: absolute;
+  right: 2px;
   margin-left: 5px;
   margin-top: 14px;
   padding-top: 0;
@@ -210,14 +211,10 @@ input[type="range"][orient="vertical"] {
 
 @media (max-width: 480px) {
   .player-radio-link {
-    width: calc(100% - 65px - 84px - 12px);
+    width: calc(100% - -15px - 84px - 12px);
   }
 
   .player-mytuner-logo {
     margin-left: 10px;
-  }
-
-  .volume-controls {
-    display: none;
   }
 }
