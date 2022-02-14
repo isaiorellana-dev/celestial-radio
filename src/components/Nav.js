@@ -5,10 +5,10 @@ const Nav = () => {
   return (
     <ul>
       <li>
-        <Link to="/quienessomos">Quienes somos</Link>
+        <Link to="/quienessomos">¿Quienes somos?</Link>
       </li>
       <li>
-        <Link to="/credo">En que creemos</Link>
+        <Link to="/credo">¿En que creemos?</Link>
       </li>
       <li>
         <Link to="/contacto">Contacto</Link>

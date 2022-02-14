@@ -12,7 +12,7 @@ const QuienesSomos = () => {
       <Link to="/">
         <img src={arrow} className="back"></img>
       </Link>
-      <h1 className="page_title">Quienes Somos</h1>
+      <h1 className="page_title">¿Quienes Somos?</h1>
       <div className="floating_text">
         Somos una radio cristiana evangélica de Honduras, fundada en 2022 por el
         pastor Jaime E. Orellana de la Iglesia Evangélica del Principe de Paz en

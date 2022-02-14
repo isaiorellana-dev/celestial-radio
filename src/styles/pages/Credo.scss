@@ -1,11 +1,19 @@
 @import "../config/global.scss";
 
 .credo {
-  p {
+  .credos {
     width: 100%;
     max-width: 1080px;
     @include paragraph;
     text-align: left;
     padding: 10px;
+    li {
+      @include paragraph;
+      text-align: left;
+      a {
+        @include paragraph;
+        text-decoration: underline;
+      }
+    }
   }
 }
