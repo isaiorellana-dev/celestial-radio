@@ -99,7 +99,7 @@ const Credo = () => {
           Señor (Lucas 24:49; Hechos 1:8; Romanos 8:11,15, 37, 39).
         </li>
         <li>
-          Credo completo este{" "}
+          Credo completo en este{" "}
           <a
             target="_blank"
             href="http://icpphn.blogspot.com/p/credo-doctrinal.html"
