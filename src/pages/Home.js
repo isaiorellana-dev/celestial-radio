@@ -7,22 +7,22 @@ import SocialMedia from "@components/SocialMedia";
 import Loader from "@components/Loader";
 
 const Home = () => {
-  const [loading, setLoading] = React.useState(true);
+  // const [loading, setLoading] = React.useState(true);
 
-  // window.addEventListener("load", function (event) {
-  //   console.log("'Todos los recursos terminaron de cargar!");
-  //   setLoading(false);
-  // });
-  React.useEffect(() => {
-    window.addEventListener("load", function (event) {
-      console.log("'Todos los recursos terminaron de cargar!");
-      setLoading(false);
-    });
-  }, [loading]);
-  console.log(loading);
+  // // window.addEventListener("load", function (event) {
+  // //   console.log("'Todos los recursos terminaron de cargar!");
+  // //   setLoading(false);
+  // // });
+  // React.useEffect(() => {
+  //   window.addEventListener("load", function (event) {
+  //     console.log("'Todos los recursos terminaron de cargar!");
+  //     setLoading(false);
+  //   });
+  // }, [loading]);
+  // console.log(loading);
   return (
     <React.Fragment>
-      {loading && <Loader />}
+      {/* {loading && <Loader />} */}
       <img className="logo" src={logo} />
       <Nav />
       <Verse />

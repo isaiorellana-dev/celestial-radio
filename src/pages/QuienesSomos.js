@@ -8,14 +8,14 @@ import arrow from "@icons/arrow.png";
 import Loader from "@components/Loader";
 
 const QuienesSomos = () => {
-  const [loading, setLoading] = React.useState(true);
+  // const [loading, setLoading] = React.useState(true);
 
-  React.useEffect(() => {
-    window.addEventListener("load", function (event) {
-      console.log("'Todos los recursos terminaron de cargar!");
-      setLoading(false);
-    });
-  }, [loading]);
+  // React.useEffect(() => {
+  //   window.addEventListener("load", function (event) {
+  //     console.log("'Todos los recursos terminaron de cargar!");
+  //     setLoading(false);
+  //   });
+  // }, [loading]);
 
   return (
     <section
@@ -23,7 +23,7 @@ const QuienesSomos = () => {
     //   setLoading(false);
     // }}
     >
-      {!!loading && <Loader />}
+      {/* {!!loading && <Loader />} */}
       <Link to="/">
         <img src={arrow} className="back"></img>
       </Link>
