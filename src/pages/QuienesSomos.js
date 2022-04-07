@@ -5,10 +5,25 @@ import iglesia from "@img/iglesia.jpg";
 import iglesia2 from "@img/iglesia-2.jpg";
 import { Link } from "react-router-dom";
 import arrow from "@icons/arrow.png";
+import Loader from "@components/Loader";
 
 const QuienesSomos = () => {
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    window.addEventListener("load", function (event) {
+      console.log("'Todos los recursos terminaron de cargar!");
+      setLoading(false);
+    });
+  }, [loading]);
+
   return (
-    <React.Fragment>
+    <section
+    // onLoad={() => {
+    //   setLoading(false);
+    // }}
+    >
+      {!!loading && <Loader />}
       <Link to="/">
         <img src={arrow} className="back"></img>
       </Link>
@@ -26,7 +41,7 @@ const QuienesSomos = () => {
         necesita.
         <img src={iglesia2}></img>
       </div>
-    </React.Fragment>
+    </section>
   );
 };
 
