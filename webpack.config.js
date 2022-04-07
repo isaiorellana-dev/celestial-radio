@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const { NetlifyPlugin } = require("netlify-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -65,16 +64,6 @@ module.exports = {
       filename: "[name].css",
     }),
     new CleanWebpackPlugin(),
-    new NetlifyPlugin({
-      redirects: [
-        {
-          from: "/*",
-          to: "/index.html",
-          status: 200,
-          force: false,
-        },
-      ],
-    }),
   ],
   optimization: {
     minimize: true,
