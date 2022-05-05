@@ -1,10 +1,6 @@
 .fondo {
-  background: linear-gradient(
-    90deg,
-    rgba(117, 248, 210, 1) 0%,
-    rgba(96, 150, 219, 1) 50%,
-    rgba(42, 227, 252, 1) 100%
-  );
+  background-color: #47b3af;
+  
   height: 75px;
   width: 100%;
   display: block;
@@ -12,12 +8,7 @@
   line-height: 65px;
 }
 .fondo:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(42, 227, 252, 1) 0%,
-    rgba(96, 150, 219, 1) 50%,
-    rgba(117, 248, 210, 1) 100%
-  );
+  background-color: #08ccc5;
 }
 
 .mytuner-widget {
