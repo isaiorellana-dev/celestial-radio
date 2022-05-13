@@ -8,7 +8,7 @@ const Colabora = () => {
 
   const paypalOptions = {
     clientId:
-      "AXYSWiExNQBM3Soj7b9nexOFc2W8uPXVy7v03Oz_-ZeojWYTyRl0s_RaLt4llvRmKgV5L7frPTvI6ozb",
+      "AfnPFJqA9rSDbxrBWMWytzNhZwVRk8AZ7JS9ouQWTuScTL5AUuYVKUy9uKZAgHLjetyb7ihy_hHMrOUc",
     intent: "capture",
     currency: "USD",
   };
