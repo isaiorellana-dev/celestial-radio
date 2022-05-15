@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "@styles/components/Nav.scss";
+import React from "react"
+import { Link } from "react-router-dom"
+import "@styles/components/Nav.scss"
 const Nav = () => {
   return (
     <ul>
@@ -13,11 +13,11 @@ const Nav = () => {
       <li>
         <Link to="/contacto">Contacto</Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="/colaborar">Colaborar</Link>
-      </li>
+      </li> */}
     </ul>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav
